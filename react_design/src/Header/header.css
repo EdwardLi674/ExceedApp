@@ -1,0 +1,64 @@
+.header-logo {
+    width: 170px;
+}
+.header-logo img {
+    width: 100%;
+    display: block;
+}
+.background-black {
+    background-color: #0000008c;
+    backdrop-filter: saturate(100%) blur(10px);
+}
+.menu-icon {
+    background: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.nav-menulist {
+    color: #a1a1a1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    font-size: 38px;
+}
+.nav-menulist:hover {
+    text-decoration: underline;
+    color: #eed996;
+    letter-spacing: 2px;
+    transition: ease-in-out 0.5s;
+    font-size: 37px;
+}
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+.offcanvas {
+    background: #000000ad !important;
+    transition: transform 0.6s ease-in-out !important;
+    backdrop-filter: saturate(100%) blur(25px);
+}
+.offcanvas-end {
+    width: 100% !important;
+    text-align: center;
+}
+.btn-close {
+    background: transparent url(../assets/image/close.svg) center/1em auto no-repeat !important;
+    opacity: 1 !important;
+}
+.offcanvas-header {
+    justify-content: flex-end !important;
+    padding: 1.5rem 2.5rem !important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../assets/menu-white.svg) !important;
+}
+.offcanvas-body {
+    display: flex;
+    align-items: center;
+}
+.navbar-nav .nav-link {
+    display: inline-block;
+}

@@ -1,0 +1,116 @@
+.video-term {
+    /* min-height: 470px;
+    height: 55vh; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.video-term::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(
+        0deg,
+        rgb(1 1 1),
+        rgb(1 1 1 / 98%) 13%,
+        rgb(1 1 1 / 87%) 22%,
+        rgb(1 1 1 / 75%) 41%,
+        rgba(0, 0, 0, 0.47)
+    );
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.headervideo {
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+}
+.header-text {
+    position: relative;
+    margin-top: 12em;
+    color: #fff;
+    margin-bottom: 2em;
+    font-family: "Perpetua Titling";
+    font-size: 55px;
+}
+.details-row {
+    color: inherit;
+}
+.details-row:hover {
+    color: inherit;
+}
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.maindiv-image {
+    width: 36%;
+}
+.image-div {
+    max-width: 300px;
+    height: 200px;
+}
+.image-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.image-text {
+    width: 60%;
+}
+.image-text h3 {
+    color: #eed996;
+}
+.side-blog {
+    max-width: 292px;
+    height: 200px;
+    margin: 0 0 15px;
+}
+.side-blog img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 100%;
+}
+.side-text p {
+    font-size: 19px;
+}
+@media screen and (max-width: 767px) {
+    .first-row {
+        flex-wrap: wrap;
+        border-bottom: 2px solid;
+        margin-bottom: 29px;
+        padding-bottom: 10px;
+    }
+    .maindiv-image {
+        width: 100%;
+    }
+    .image-text {
+        width: 100%;
+    }
+    .nav {
+        flex-wrap: nowrap !important;
+        overflow: auto;
+    }
+    .nav::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    .nav-borders .nav-link:first-child {
+        min-width: 80px;
+    }
+    .nav-borders .nav-link:nth-child(2) {
+        min-width: 80px;
+    }
+    .nav-borders .nav-link:last-child {
+        min-width: 130px;
+    }
+}
